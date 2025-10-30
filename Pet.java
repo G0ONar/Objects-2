@@ -38,8 +38,8 @@ public class Main {
 
     public static void main(String[] args) {
         Pet pet1 = new Pet("Buddy", "dog", 3);
-        Pet pet2 = new Pet("Mittens", "cat", 2);
-        Pet pet3 = new Pet("Nibbles", "hamster", 1);
+        Pet pet2 = new Pet("Mittens", "dog", 2);
+        Pet pet3 = new Pet("Nibbles", "dog", 1);
 
         System.out.println(pet1.describe());
         pet1.play(10);
